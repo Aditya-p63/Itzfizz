@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Itz Fizz — a fizzy, feel-good hero animation study." />
+  <title>Itz Fizz — Feel the fizz</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/ScrollTrigger.min.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header" aria-label="Main navigation">
+    <a class="wordmark" href="#top" aria-label="Itz Fizz home">
+      <span class="wordmark-mark" aria-hidden="true">+</span>
+      <span>itz fizz</span>
+    </a>
+    <div class="header-meta">
+      <span class="live-dot" aria-hidden="true"></span>
+      <span>freshly poured / 2024</span>
+    </div>
+    <a class="header-link" href="#story">discover <span aria-hidden="true">↘</span></a>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-grid" aria-hidden="true"></div>
+      <div class="hero-orbit hero-orbit-one" aria-hidden="true"></div>
+      <div class="hero-orbit hero-orbit-two" aria-hidden="true"></div>
+      <div class="hero-visual" aria-hidden="true">
+        <div class="visual-ring visual-ring-one"></div>
+        <div class="visual-ring visual-ring-two"></div>
+        <div class="visual-core"><span>fz</span></div>
+        <span class="visual-spark spark-one">+</span>
+        <span class="visual-spark spark-two">+</span>
+      </div>
+      <div class="hero-bubble bubble-two" aria-hidden="true"></div>
+      <div class="hero-bubble bubble-three" aria-hidden="true"></div>
+
+      <div class="hero-inner">
+        <div class="hero-kicker reveal-item">
+          <span class="kicker-line"></span>
+          <span>small batch / big energy</span>
+        </div>
+        <h1 id="hero-title" class="hero-title" aria-label="Welcome Itz Fizz">
+          <span class="title-line title-line-top" aria-hidden="true">
+            <span class="title-letter">W</span><span class="title-letter">E</span><span class="title-letter">L</span><span class="title-letter">C</span><span class="title-letter">O</span><span class="title-letter">M</span><span class="title-letter">E</span>
+          </span>
+          <span class="title-line title-line-bottom" aria-hidden="true">
+            <span class="title-letter">I</span><span class="title-letter">T</span><span class="title-letter">Z</span><span class="title-letter title-letter-accent">F</span><span class="title-letter title-letter-accent">I</span><span class="title-letter title-letter-accent">Z</span><span class="title-letter title-letter-accent">Z</span>
+          </span>
+        </h1>
+        <p class="hero-intro reveal-item">A little sparkle for your<br />everyday rhythm.</p>
+
+        <div class="stats" aria-label="Itz Fizz statistics">
+          <div class="stat reveal-item">
+            <strong><span data-count="100">0</span><sup>%</sup></strong>
+            <span class="stat-label">good mood<br />per sip</span>
+          </div>
+          <div class="stat reveal-item">
+            <strong><span data-count="0">0</span><sup>g</sup></strong>
+            <span class="stat-label">added sugar<br />in the mix</span>
+          </div>
+          <div class="stat reveal-item">
+            <strong><span data-count="24">0</span><sup>h</sup></strong>
+            <span class="stat-label">of fizz<br />on your mind</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="scroll-cue reveal-item" aria-hidden="true">
+        <span>scroll to move the fizz</span>
+        <span class="scroll-arrow">↓</span>
+      </div>
+      <div class="hero-index" aria-hidden="true">01 <span>/</span> 03</div>
+    </section>
+
+    <section class="story" id="story" aria-labelledby="story-title">
+      <div class="story-topline"><span>02</span><span>the feeling after</span></div>
+      <div class="story-copy">
+        <p class="eyebrow">A bright little ritual</p>
+        <h2 id="story-title">Keep the<br /><em>good stuff</em><br />bubbling.</h2>
+        <p class="story-description">Clean ingredients, curious flavors, and a generous pour of personality. Made for the pause between one thing and the next.</p>
+        <a class="story-link" href="#top">back to the top <span aria-hidden="true">↑</span></a>
+      </div>
+      <div class="story-sun" aria-hidden="true"><span>feel<br />the<br />fizz</span></div>
+    </section>
+  </main>
+</body>
+</html>
